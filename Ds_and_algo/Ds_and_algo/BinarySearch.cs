@@ -22,13 +22,14 @@ namespace Ds_and_algo
 
         public void Find()
         {
-            while(arr[middle] != elem && start <= end)
+            while (arr[middle] != elem && start <= end)
             {
                 if (arr[middle] > elem)
                 {
                     end = middle - 1;
-                    
-                } else
+
+                }
+                else
                 {
                     start = middle + 1;
                 }
@@ -41,9 +42,9 @@ namespace Ds_and_algo
             }
             else
             {
-                Console.WriteLine("Not found"); 
+                Console.WriteLine("Not found");
             }
-            
+
         }
     }
 }
