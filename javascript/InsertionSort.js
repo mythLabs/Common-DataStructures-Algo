@@ -1,3 +1,4 @@
+// Keep on generating sorted array on one portion of existing array
 function InsertionSort(arr) {
   sortedLength = 0;
   let temp;

@@ -1,3 +1,4 @@
+// Continuous comparison with neighbours will bubble sorted elements
 function BubbleSort(arr) {
   let arrLength = arr.length - 1;
   let temp;

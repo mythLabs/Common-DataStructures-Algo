@@ -1,3 +1,4 @@
+// Select 1 and compared with all element to find replacement and replace
 function SelectionSort(arr) {
   let temp;
   let minimum;
