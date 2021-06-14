@@ -12,7 +12,7 @@ namespace Ds_and_algo
             int[] unsortedArray = { 345, 51, 1, 99, 7, 3, 5, 7, 46, 34, 76, 22, 78, 34, 78, 98 };
 
             //Console.WriteLine("------------Binary Search---------");
-            //BinarySearch BinarySearchObj = new BinarySearch(sortedArray, 465 );
+            //BinarySearch BinarySearchObj = new BinarySearch(sortedArray, 46);
             //BinarySearchObj.Find();
             //Console.WriteLine("----------------------------------");
 
@@ -21,9 +21,14 @@ namespace Ds_and_algo
             //BubbleSortObj.Sort();
             //Console.WriteLine("----------------------------------");
 
-            Console.WriteLine("------------Selection Sort---------");
-            SelectionSort SelectionSortObj = new SelectionSort(unsortedArray);
-            SelectionSortObj.Sort();
+            //Console.WriteLine("------------Selection Sort---------");
+            //SelectionSort SelectionSortObj = new SelectionSort(unsortedArray);
+            //SelectionSortObj.Sort();
+            //Console.WriteLine("----------------------------------");
+
+            Console.WriteLine("------------Insertion Sort---------");
+            InsertionSort InsertionSortObj = new InsertionSort(unsortedArray);
+            InsertionSortObj.Sort();
             Console.WriteLine("----------------------------------");
         }
 
