@@ -31,9 +31,15 @@ namespace Ds_and_algo
             //InsertionSortObj.Sort();
             //Console.WriteLine("----------------------------------");
 
-            Console.WriteLine("------------Merge Sort---------");
-            MergeSort MergeSortObj = new MergeSort();
-            int[] result = MergeSortObj.Sort(unsortedArray);
+            //Console.WriteLine("------------Merge Sort---------");
+            //MergeSort MergeSortObj = new MergeSort();
+            //int[] result = MergeSortObj.Sort(unsortedArray);
+            //Console.WriteLine($"Sorted array:- {string.Join(", ", result)}");
+            //Console.WriteLine("----------------------------------");
+
+            Console.WriteLine("------------Quick Sort---------");
+            QuickSort QuickSortObj = new QuickSort();
+            int[] result = QuickSortObj.Sort(unsortedArray, 0, unsortedArray.Length - 1);
             Console.WriteLine($"Sorted array:- {string.Join(", ", result)}");
             Console.WriteLine("----------------------------------");
         }
